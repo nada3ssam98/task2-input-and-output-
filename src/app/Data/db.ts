@@ -1,5 +1,6 @@
+import { IProduct } from "./IProduct";
 
-export const PRODUCTS: any = [
+export const PRODUCTS: IProduct[] = [
 
     {
         price: 10,
