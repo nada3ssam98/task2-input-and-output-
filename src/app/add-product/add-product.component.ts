@@ -16,9 +16,6 @@ export class AddProductComponent {
     price:0,
     image:'',
   }; 
-
- 
-
  onAddProduct(){
   this.addedProduct.emit(this.newProduct)
  }
